@@ -1,0 +1,90 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  body {
+      margin: 0;
+  }
+  
+.header-container {
+    background-image: url(./banner.jpg);
+    background-size: 100%;
+    height: 30vw;
+    position: relative;
+}
+
+.company-intro {
+    position: absolute;
+    right: 10vw;
+    top: 50px;
+    padding: 20px;
+    color: white;
+    width: 50%;
+    background-color: rgba(40, 70, 66, 0.4);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65);
+}
+
+h1 {
+    font-size: 45px;
+}
+
+header p {
+    font-size: 30px;
+}
+
+.main-menu-container {
+    padding-left: 15vw;
+    width: 10%; 
+}
+
+.main-menu {
+    margin: 0;
+    background-color: rgba(63, 117, 134, 0.3);
+    border-left: 5px solid rgba(129, 225, 255, 0.63);
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu-item {
+    padding: 15px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-menu-item:hover {
+    background-color: #4cc3c3;
+    padding: 5px;
+}
+
+main {
+    margin: 40px 60px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.main-article {
+    display: inline-block;
+    padding: 20px 200px;
+
+}
+
+.main-article-image {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(9, 65, 64);
+    color: white;
+    padding: 40px;
+}
